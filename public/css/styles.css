@@ -1,0 +1,80 @@
+body {
+    /* text-align:center ; */
+    color: #333333;
+    font-family:  Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('https://i.pinimg.com/originals/75/c8/21/75c821cababbe87d09e6aca804a2aef6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+footer{
+    color: #2f2519;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 2px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+h1{
+    font-size: 5rem;
+
+}
+.violet{
+    color: #6f4a8e;
+}
+.indigo{
+    color: #4a47a3;
+}
+.blue{
+    color:#3282b8;
+}
+.green{
+    color:#79d70f;
+}
+.yellow{
+    color:#ffd31d;
+}
+.orange{
+    color:#ff5722;
+}
+.red{
+    color:#c81912;
+}
+
+header a{
+    color : #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+.my-picture{
+    width: 200px;
+}
+.main-content{
+    flex: 1;
+}
+
+input{
+    border : 1px solid #cccccc;
+    padding: 8px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color:#fff ;
+    padding: 8px;
+}
